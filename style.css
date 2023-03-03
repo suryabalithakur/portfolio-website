@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(247, 239, 239);
+    /* width: 434px; */
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    text-decoration: none;
+    /* transition: tranform 0.3s ease-in; */
+    /* transform: translate(-440px 0px); 
+    position: absolute;  */
+
+}
+
+.sidebar nav {
+    padding: 39px;
+
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 22px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 85vw;
+    padding: 37px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(168, 20, 165);   */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.About {
+    font-size: 40px;
+}
+
+.moreabout {
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.buttons {
+    margin-top: 29px;
+}
+
+.btn {
+    color: white;
+    background-color: #5c5cb2;
+    border-radius: 14px;
+    padding: 7px 8px;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 4px 6px;
+    margin: 3px;
+    font-size: 13px;
+}
+
+.btn:hover {
+    color: #7c7ccc;
+    background-color: white;
+}
+
+
+
+.devpic img {
+    /* width: 381px; */
+    height: 58vh;
+}
+
+.Contactform {
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 0px 120px;
+    padding-left: 12px 2px;
+}
+
+.Contactform h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.Contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contactform form div input {
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0px 0px 0px;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 9px; 
+    color: rgb(91, 91, 230);  
+    margin: 0 5px;  
+}
+
+#form-check {
+    flex-direction: row;  
+}
+
+#form-check input {
+    width: 28px; 
+    margin: 0px 0; 
+}
+
+
+/* BLOG */
+
+
+.Blogitem {
+    margin: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;  
+    margin: 27px; 
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+
+
+.Intro h2 {
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 12px;
+}
+
+.Intro p {
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.skill {
+    width: 189px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black; 
+}
+
+.hundered {
+    width: 265px;
+    background-color: rgb(86, 86, 216);             
+}
+
+.fifty {
+    width: 125px; 
+    background-color: rgb(148, 148, 39);      
+}
+
+.t5 {
+    width: 75px; 
+    background-color: rgb(81, 216, 216);           
+}   
+
+.sidebarGo {
+    transform: translate(-185px);        
+    position: absolute;             
+}
+
+ 
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 12px;
+    left: 15px;
+} 
+.cross{
+    margin-left: 120px;
+}
+
+@media (max-width:972px) {
+
+    
+    .infocontainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .devpic img{
+        width: 400px;
+        height: 400px;
+    }
+}
